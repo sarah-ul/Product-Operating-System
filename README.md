@@ -6,7 +6,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](https://github.com/deanpeters/Product-Manager-Skills/blob/main/CONTRIBUTING.md)
 [![Version](https://img.shields.io/badge/version-v0.79-blue?style=flat-square)](https://github.com/deanpeters/Product-Manager-Skills)
 [![Claude Code Plugin](https://img.shields.io/badge/Claude%20Code-Plugin%20Marketplace-5C4EE5?style=flat-square)](https://code.claude.com/docs/en/plugin-marketplaces)
-![Skills](https://img.shields.io/badge/skills-47-informational?style=flat-square)
+![Skills](https://img.shields.io/badge/skills-49-informational?style=flat-square)
 ![Commands](https://img.shields.io/badge/commands-6-informational?style=flat-square)
 ![Streamlit Beta](https://img.shields.io/badge/streamlit-beta-orange?style=flat-square)
 
@@ -20,7 +20,7 @@
 ║   ██║     ██║ ╚═╝ ██║    ███████║██║  ██╗██║███████╗███████╗███████║
 ║   ╚═╝     ╚═╝     ╚═╝    ╚══════╝╚═╝  ╚═╝╚═╝╚══════╝╚══════╝╚══════╝
 ║                                                                    ║
-║   47 battle-tested skills + 6 command workflows                    ║
+║   49 battle-tested skills + 6 command workflows                    ║
 ║   Claude Code • Cursor • Codex  • n8n • OpenClaw • and more ...    ║
 ║                                                                    ║
 ║   v0.79 • May 15, 2026 • CC BY-NC-SA 4.0                            ║
@@ -290,7 +290,7 @@ Still rewriting PM prompts and getting generic AI output? I built a reusable PM 
 
 ## 🎯 What This Is
 
-**47 ready-to-use PM skills + reusable command workflows** that teach both you and your AI agents how to do product management work at a professional level — so the PM understands the *why* and the agent can execute the *how*.
+**49 ready-to-use PM skills + reusable command workflows** that teach both you and your AI agents how to do product management work at a professional level — so the PM understands the *why* and the agent can execute the *how*.
 
 Instead of saying *"Write a PRD"* and hoping for the best, you and your agent both know:
 - ✅ How to structure a PRD and why each section earns its place
@@ -486,7 +486,7 @@ pbpaste | ./scripts/add-a-skill.sh
 
 ## 🏗️ Three-Tier Architecture (How Skills Work Together)
 
-These 47 skills are organized into **three types** that build on each other:
+These 49 skills are organized into **three types** that build on each other:
 
 ```text
 ┌───────────────────────────────────────────────────────────┐
@@ -520,7 +520,7 @@ These 47 skills are organized into **three types** that build on each other:
 
 ---
 
-### Interactive Skills (20) — Guided Discovery
+### Interactive Skills (22) — Guided Discovery
 **What:** Multi-turn conversational flows where AI asks you 3-5 adaptive questions, then offers smart recommendations based on your context.
 
 **When to use:** You need help deciding which approach to take or gathering context before executing.
@@ -545,7 +545,7 @@ These 47 skills are organized into **three types** that build on each other:
 
 ---
 
-## 📦 All 47 Skills (Clickable)
+## 📦 All 49 Skills (Clickable)
 
 Now that you understand the three types, here's the complete catalog:
 
@@ -577,7 +577,7 @@ Now that you understand the three types, here's the complete catalog:
 
 ---
 
-### 🔄 Interactive Skills (20)
+### 🔄 Interactive Skills (22)
 
 | Skill | What It Does |
 |-------|--------------|
@@ -593,6 +593,8 @@ Now that you understand the three types, here's the complete catalog:
 | **[finance-based-pricing-advisor](skills/finance-based-pricing-advisor/SKILL.md)** | Evaluate pricing changes using financial impact analysis (ARPU/ARPA, conversion, churn risk, NRR, payback) |
 | **[lean-ux-canvas](skills/lean-ux-canvas/SKILL.md)** | Sets up hypothesis-driven planning (Jeff Gothelf Lean UX Canvas v2) |
 | **[opportunity-solution-tree](skills/opportunity-solution-tree/SKILL.md)** | Generates opportunities and solutions, recommends best proof-of-concept to test |
+| **[organic-growth-advisor](skills/organic-growth-advisor/SKILL.md)** | Identify which organic growth path to pursue — new segments, geographies, channels, or products. Use when diagnosing where a growth constraint lives and which McKinsey growth level to act on next |
+| **[pm-skill-creator](skills/pm-skill-creator/SKILL.md)** | Design a new PM skill through guided conversation. Use when you have raw content or an idea and want to shape it into a compliant skill |
 | **[pol-probe-advisor](skills/pol-probe-advisor/SKILL.md)** | Recommends which of 5 prototype types to use based on your hypothesis and risk (Feasibility, Task-Focused, Narrative, Synthetic Data, Vibe-Coded) |
 | **[positioning-workshop](skills/positioning-workshop/SKILL.md)** | Guides you through defining your positioning with adaptive questions |
 | **[prioritization-advisor](skills/prioritization-advisor/SKILL.md)** | Recommends the right prioritization framework (RICE, ICE, Kano, etc.) for your situation |
