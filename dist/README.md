@@ -3,7 +3,7 @@
 Welcome. This folder is the **easy download shelf** for the library — no code, no
 terminal. Grab what you want, unzip it, and upload the skills to Claude.
 
-There are **56 skills** in total. Two ways to get them:
+There are **70 skills** in total. Two ways to get them:
 
 ## 1. Grab a bundle (recommended)
 
@@ -17,7 +17,7 @@ find upload-ready skill ZIPs inside.
 | [`03-strategy-pack.zip`](packages/03-strategy-pack.zip) | Positioning, market thinking, product direction |
 | [`04-delivery-pack.zip`](packages/04-delivery-pack.zip) | Stories, epics, PRDs, roadmap execution |
 | [`05-ai-pm-pack.zip`](packages/05-ai-pm-pack.zip) | AI product work |
-| [`99-all-skills-pack.zip`](packages/99-all-skills-pack.zip) | Everything — all 56 skills |
+| [`99-all-skills-pack.zip`](packages/99-all-skills-pack.zip) | Everything — all 70 skills |
 | [`pm-skills-codex.zip`](packages/pm-skills-codex.zip) | OpenAI Codex users (`.agents/skills` + `AGENTS.md`) |
 
 ## 2. Grab one skill at a time
