@@ -127,6 +127,7 @@ type: component
 - In `## Input`, say what the user *can* bring in plain language, show an example invocation, and tell the agent to use input supplied inline with the request instead of re-asking for it. Frame it as an invitation, not a gate — the section must make clear that partial or zero input is fine and the skill guides the user through what's missing. Never use runtime-specific template syntax like `$ARGUMENTS` — it only expands in Claude Code and reads as noise everywhere else (Claude web, Codex, Streamlit). This is deliberate, and a differentiator: see "Why We Don't Use `$ARGUMENTS`" in `CONTRIBUTING.md`.
 - Use short paragraphs and concrete instructions.
 - Include a clear example and an explicit anti-pattern.
+- Optimally, ship the full adornment: a `template.md` (the skill's output schema as a copy/paste fill-in with quality checks) and worked examples from two business domains — one SaaS, one industrial/non-SaaS — so the framework visibly generalizes. Reuse the repo's established fictional universes (Fieldlight/Wrenchline FSM for SaaS; Helix Motion Systems/Northfield Automation/Corvid Industrial for industrial) and name added examples by domain (`sample-industrial.md`). All example companies must be fictional.
 - Define jargon on first use.
 - Make tradeoffs explicit.
 - If you plan to upload to Claude web custom skills, keep `name` <= 64 chars and `description` <= 200 chars.

@@ -89,6 +89,24 @@ Common downloads:
 
 ## 📣 Updates & Announcements
 
+### July 17, 2026 — v0.83 The Market Intelligence Suite
+
+The biggest single addition in the library's history: 14 new skills and 2 major upgrades that turn competitive and market research from a term paper into an operating capability — collection disciplines run like an intelligence agency, with Fact/Inference/Assumption labels on every claim.
+
+**What changed in v0.83:**
+- Added `autonomous-investigation` (Workflow) — the protocol for research that proceeds without you: question budgets, a search-plan gate, evidence labels, do-not-invent lists, and stable diffable schemas, so investigations can run on a schedule and diff run-over-run. The counterpart to `workshop-facilitation` for skills where the *world* holds the context
+- Added `intelligence-collection-disciplines` (Component) and `intel-discipline-advisor` (Interactive) — eight collection disciplines (OSINT → MASINT + All-Source Fusion) with free/paid sources and signal → inference chains, plus the triage advisor that routes the question on your desk to the right discipline mix, cadence, and executing skill
+- Added the investigation chain — `market-landscape-scan` → `competitive-research-snapshot` → `competitive-intel-watch` → `battle-card-builder` — each consuming the prior's stable schema, so research becomes a cadence instead of a deck
+- Added evidence-cited strategy frameworks: `swot-analysis`, `porters-five-forces`, `ansoff-matrix`
+- Added monitors and miners: `voice-of-customer-miner`, `pricing-packaging-tracker`, `pestel-delta-monitor`
+- Added `competitive-analysis-process` (Workflow) — the six-step umbrella orchestrating the whole suite
+- Upgraded `tam-sam-som-calculator` (three entry modes, including autonomous bottom-up research) and `company-intel` (Executive Signal Refresh: Then/Now diffs and **Dropped Language** — what leaders stop saying is often the strongest signal)
+- Library is now **70 skills** (24 Component, 27 Interactive, 19 Workflow)
+
+Release note: [`docs/announcements/2026-07-17-v0-83-market-intelligence-suite.md`](announcements/2026-07-17-v0-83-market-intelligence-suite.md)
+
+---
+
 ### July 8, 2026 — v0.82 Inbound-Request Triage and a Browsable Download Shelf
 
 Two moves in one release: a new skill for the messages that land in your lap, and a much easier way to get the whole library.

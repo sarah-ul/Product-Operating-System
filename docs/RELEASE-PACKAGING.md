@@ -30,6 +30,7 @@ dist/
     03-strategy-pack.zip
     04-delivery-pack.zip
     05-ai-pm-pack.zip
+    06-market-intel-pack.zip
     99-all-skills-pack.zip
     pm-skills-codex.zip
 ```
@@ -67,6 +68,7 @@ dist/
     03-strategy-pack.zip
     04-delivery-pack.zip
     05-ai-pm-pack.zip
+    06-market-intel-pack.zip
     99-all-skills-pack.zip
 
   skill-zips/

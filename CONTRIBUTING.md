@@ -339,6 +339,7 @@ Your skill should pass these checks:
 - [ ] **Agent-ready:** Could an AI read this and apply it without asking clarifying questions?
 - [ ] **Self-contained:** Does it define its own terms? (No unexplained jargon)
 - [ ] **Practical:** Does it include at least one concrete example?
+- [ ] **Fully adorned:** Does the skill ship a `template.md` plus worked examples from two business domains (one SaaS, one industrial/non-SaaS)? *Why:* a skill demonstrated only in a SaaS market quietly narrows who it teaches — PMs in industrial, hardware, and regulated businesses deserve to see their own business on the page, and a second domain proves the framework generalizes. Reuse the repo's fictional universes (Fieldlight/Wrenchline for SaaS; Helix/Northfield/Corvid for industrial); suffix added files with the domain (`sample-industrial.md`). Quality bar, not hard gate: interactive skills may substitute per-domain conversation-flow examples, and definitionally single-domain skills are exempt.
 - [ ] **Input-aware:** Does the Input section show an example invocation, tell the agent to use inline input instead of re-asking, and make clear the user can arrive with nothing and be guided through it? (Invitation, not gate — and no `$ARGUMENTS` syntax.)
 - [ ] **Opinionated:** Does it take a stance? (Not just "here are options")
 - [ ] **Skimmable:** Can you skim the headings and bullets and get 80% of the value?

@@ -229,7 +229,7 @@ collect_sections() {
     SECTION_INPUT="$(read_multiline_required "Input" "What the user can bring (subject, optional context), how inline input is used instead of re-asked, and what the skill does when they arrive empty-handed. Invitation, not gate; no \$ARGUMENTS syntax.")"
     SECTION_KEY_CONCEPTS="$(read_multiline_required "Key Concepts" "Core ideas, definitions, and non-obvious principles.")"
     SECTION_APPLICATION="$(read_multiline_required "Application" "How to run this skill step-by-step in practice.")"
-    SECTION_EXAMPLES="$(read_multiline_required "Examples" "At least one concrete example.")"
+    SECTION_EXAMPLES="$(read_multiline_required "Examples" "At least one concrete example. Optimally two, from different business domains (one SaaS, one industrial) — all companies fictional.")"
     SECTION_COMMON_PITFALLS="$(read_multiline_required "Common Pitfalls" "Explicit anti-patterns and failure modes to avoid.")"
     SECTION_REFERENCES="$(read_multiline_required "References" "Related skills and/or external references.")"
 
@@ -267,7 +267,9 @@ collect_optional_files() {
         TEMPLATE_CONTENT="$(read_multiline_required "template.md" "Template content users will copy/fill in.")"
     fi
 
-    while confirm "Add an example file under examples/?" "n"; do
+    # Repo quality bar: template.md + examples from two business domains (SaaS + industrial),
+# named by domain (e.g., sample-industrial.md). See CONTRIBUTING.md "Fully adorned".
+while confirm "Add an example file under examples/? (quality bar: one SaaS + one industrial)" "n"; do
         local raw_name
         local clean_name
         raw_name="$(read_required_line "Example filename (e.g., launch-review.md)")"

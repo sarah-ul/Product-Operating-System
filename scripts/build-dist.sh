@@ -37,7 +37,7 @@ skill_zip_count="$(find "$DIST" -maxdepth 1 -type f -name '*.zip' | wc -l | tr -
 
 # Curated bundles + codex -> dist/packages/
 for p in pm-skills-starter-pack 02-discovery-pack 03-strategy-pack \
-         04-delivery-pack 05-ai-pm-pack 99-all-skills-pack; do
+         04-delivery-pack 05-ai-pm-pack 06-market-intel-pack 99-all-skills-pack; do
   cp "$DIST/claude-desktop/$p.zip" "$DIST/packages/"
 done
 cp "$DIST/codex/pm-skills-codex.zip" "$DIST/packages/"
@@ -123,6 +123,7 @@ find upload-ready skill ZIPs inside.
 | [`03-strategy-pack.zip`](packages/03-strategy-pack.zip) | Positioning, market thinking, product direction |
 | [`04-delivery-pack.zip`](packages/04-delivery-pack.zip) | Stories, epics, PRDs, roadmap execution |
 | [`05-ai-pm-pack.zip`](packages/05-ai-pm-pack.zip) | AI product work |
+| [`06-market-intel-pack.zip`](packages/06-market-intel-pack.zip) | Competitive and market intelligence — the full suite |
 | [`99-all-skills-pack.zip`](packages/99-all-skills-pack.zip) | Everything — all {total} skills |
 | [`pm-skills-codex.zip`](packages/pm-skills-codex.zip) | OpenAI Codex users (`.agents/skills` + `AGENTS.md`) |
 

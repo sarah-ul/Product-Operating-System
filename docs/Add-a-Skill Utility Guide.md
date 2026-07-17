@@ -126,7 +126,7 @@ Continue? [y/N]
 - Exact file paths and names
 - YAML frontmatter for each skill
 - Section outlines
-- Supporting files (templates, examples)
+- Supporting files (templates, examples — the repo quality bar is a `template.md` plus worked examples from two business domains, one SaaS and one industrial, all companies fictional)
 - Documentation updates needed
 
 **User action:** Review plan, approve or exit

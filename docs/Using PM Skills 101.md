@@ -228,7 +228,7 @@ Always produce: role, action, value, and Gherkin acceptance criteria for each st
 3. All conversations in that project have the skills loaded
 4. Best for team projects where everyone uses the same PM frameworks
 
-> **Pro tip:** Don't upload all 47 skills to one Custom GPT. Build focused GPTs: a "Discovery GPT" with `discovery-process` + `pol-probe` + `opportunity-solution-tree`, and a "Roadmap GPT" with `prioritization-advisor` + `roadmap-planning`.
+> **Pro tip:** Don't upload the whole library to one Custom GPT. Build focused GPTs: a "Discovery GPT" with `discovery-process` + `pol-probe` + `opportunity-solution-tree`, and a "Roadmap GPT" with `prioritization-advisor` + `roadmap-planning`.
 
 ---
 

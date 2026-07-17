@@ -122,6 +122,24 @@ main() {
     pol-probe-advisor \
     company-research
 
+  pack_skills "06-market-intel-pack.zip" \
+    intel-discipline-advisor \
+    intelligence-collection-disciplines \
+    autonomous-investigation \
+    competitive-analysis-process \
+    market-landscape-scan \
+    competitive-research-snapshot \
+    competitive-intel-watch \
+    battle-card-builder \
+    voice-of-customer-miner \
+    pricing-packaging-tracker \
+    swot-analysis \
+    porters-five-forces \
+    ansoff-matrix \
+    pestel-delta-monitor \
+    tam-sam-som-calculator \
+    company-intel
+
   pack_all_skills "99-all-skills-pack.zip"
 
   echo "Claude Desktop/Web packs ready in: ${OUT_DIR#$ROOT/}"

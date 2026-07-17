@@ -73,6 +73,12 @@ Navigate by what you're actually trying to accomplish:
 - [organic-growth-advisor](skills/organic-growth-advisor/SKILL.md) — McKinsey Growth Pyramid triage: diagnoses whether your constraint is in new segments, geographies, channels, or products
 - [feature-investment-advisor](skills/feature-investment-advisor/SKILL.md) — build / don't build recommendation using revenue impact, cost, ROI, and strategic value
 
+**Market and competitive intelligence**
+- [intel-discipline-advisor](skills/intel-discipline-advisor/SKILL.md) — start here: triages the question on your desk into the right intelligence disciplines, cadence, and executing skill
+- [competitive-analysis-process](skills/competitive-analysis-process/SKILL.md) — the six-step umbrella: landscape → product comparison → customer needs → business baseline → positioning → strategic direction
+- The investigation chain: [market-landscape-scan](skills/market-landscape-scan/SKILL.md) → [competitive-research-snapshot](skills/competitive-research-snapshot/SKILL.md) → [competitive-intel-watch](skills/competitive-intel-watch/SKILL.md) → [battle-card-builder](skills/battle-card-builder/SKILL.md) — each consumes the prior's schema, so research becomes a cadence instead of a one-off deck
+- [tam-sam-som-calculator](skills/tam-sam-som-calculator/SKILL.md) — market sizing three ways: your own numbers, guided interview, or autonomous bottom-up research a skeptical CFO can attack one assumption at a time
+
 **Career and leadership transitions**
 - [director-readiness-advisor](skills/director-readiness-advisor/SKILL.md) — coaches PMs through the PM→Director shift across four situations: preparing, interviewing, newly landed, recalibrating
 - [vp-cpo-readiness-advisor](skills/vp-cpo-readiness-advisor/SKILL.md) — coaches Directors through VP/CPO transition, including a CEO interview framework for evaluating roles before you accept
@@ -109,6 +115,7 @@ Each pack below is a ZIP of upload-ready skill ZIPs — unzip, then upload indiv
 | Strategy | [`03-strategy-pack.zip`](https://github.com/deanpeters/Product-Manager-Skills/releases/latest/download/03-strategy-pack.zip) | Positioning, roadmapping, prioritization |
 | Delivery | [`04-delivery-pack.zip`](https://github.com/deanpeters/Product-Manager-Skills/releases/latest/download/04-delivery-pack.zip) | PRDs, stories, epics |
 | AI PM | [`05-ai-pm-pack.zip`](https://github.com/deanpeters/Product-Manager-Skills/releases/latest/download/05-ai-pm-pack.zip) | Context engineering, orchestration, readiness |
+| Market Intel | [`06-market-intel-pack.zip`](https://github.com/deanpeters/Product-Manager-Skills/releases/latest/download/06-market-intel-pack.zip) | The full Market Intelligence Suite: disciplines, investigation chain, frameworks, monitors |
 | All skills | [`99-all-skills-pack.zip`](https://github.com/deanpeters/Product-Manager-Skills/releases/latest/download/99-all-skills-pack.zip) | All 70 skills |
 
 ### Install guides
@@ -142,25 +149,25 @@ Feedback welcome via [GitHub Issues](https://github.com/deanpeters/Product-Manag
 
 ---
 
-## 52 Skills, 3 Types
+## 70 Skills, 3 Types
 
 Skills are organized in three tiers that build on each other:
 
 ```
 ┌────────────────────────────────────────────────────────┐
-│  WORKFLOW SKILLS (6)                                   │
+│  WORKFLOW SKILLS (19)                                  │
 │  Complete end-to-end PM processes (days to weeks)      │
 │  Example: run a full discovery cycle or write a PRD    │
 └────────────────────────────────────────────────────────┘
                        ↓ orchestrates
 ┌────────────────────────────────────────────────────────┐
-│  INTERACTIVE SKILLS (23)                               │
+│  INTERACTIVE SKILLS (27)                               │
 │  Guided discovery — 3-5 questions, then recommendations│
 │  Example: "Which prioritization framework fits here?"  │
 └────────────────────────────────────────────────────────┘
                        ↓ uses
 ┌────────────────────────────────────────────────────────┐
-│  COMPONENT SKILLS (23)                                 │
+│  COMPONENT SKILLS (24)                                 │
 │  Templates for specific PM deliverables (30-90 min)    │
 │  Example: write a user story with acceptance criteria  │
 └────────────────────────────────────────────────────────┘
@@ -212,12 +219,20 @@ See [docs/Platform Guides for PMs.md](docs/Platform%20Guides%20for%20PMs.md) for
 | [Using PM Skills with ChatGPT](docs/Using%20PM%20Skills%20with%20ChatGPT.md) | GitHub app, Custom GPT Knowledge, and Project-based usage |
 | [Using PM Skills with Slash Commands 101](docs/Using%20PM%20Skills%20with%20Slash%20Commands%20101.md) | Turn skills into reusable slash commands like `/pm-story` |
 | [Add-a-Skill Utility Guide](docs/Add-a-Skill%20Utility%20Guide.md) | End-to-end guide for generating and validating new skills |
+| [Market Intelligence Suite Summary](docs/Market%20Intelligence%20Suite%20Summary.md) | The 14-skill competitive/market research suite: disciplines, chain, and which skill to run when |
 | [Building PM Skills](docs/Building%20PM%20Skills.md) | How raw PM content gets distilled into agent-ready skills |
 | [START_HERE.md](START_HERE.md) | 60-second onboarding for local repo users |
 
 ---
 
 ## What's New
+
+**v0.83 — July 17, 2026 · The Market Intelligence Suite**
+- **14 new skills + 2 major upgrades** — the biggest single addition in the library's history. Run competitive and market research like an intelligence agency instead of a term paper: eight collection disciplines (OSINT → MASINT), signal → inference chains, confidence stacking, and a fusion cadence
+- New interaction mode: [`autonomous-investigation`](skills/autonomous-investigation/SKILL.md) — the protocol for research that proceeds *without* you. Question budgets, a search-plan gate, **Fact / Inference / Assumption** labels on every claim, do-not-invent lists, and stable diffable schemas, so investigations can run on a schedule and you can diff this quarter against last
+- The investigation chain ([market-landscape-scan](skills/market-landscape-scan/SKILL.md) → [competitive-research-snapshot](skills/competitive-research-snapshot/SKILL.md) → [competitive-intel-watch](skills/competitive-intel-watch/SKILL.md) → [battle-card-builder](skills/battle-card-builder/SKILL.md)), evidence-cited strategy frameworks ([swot-analysis](skills/swot-analysis/SKILL.md), [porters-five-forces](skills/porters-five-forces/SKILL.md), [ansoff-matrix](skills/ansoff-matrix/SKILL.md)), monitors and miners ([voice-of-customer-miner](skills/voice-of-customer-miner/SKILL.md), [pricing-packaging-tracker](skills/pricing-packaging-tracker/SKILL.md), [pestel-delta-monitor](skills/pestel-delta-monitor/SKILL.md)), and the six-step umbrella [competitive-analysis-process](skills/competitive-analysis-process/SKILL.md)
+- Upgraded: `tam-sam-som-calculator` (three entry modes, including autonomous bottom-up research) and `company-intel` (Executive Signal Refresh rerun pattern — Then/Now diffs and **Dropped Language**: what leaders *stop* saying is often the strongest signal)
+- Library now at **70 skills** · full story in the [release note](docs/announcements/2026-07-17-v0-83-market-intelligence-suite.md)
 
 **v0.82 — July 8, 2026**
 - Added `incoming-request-advisor` (Interactive) — drop in a Slack ping, email, mandate, or escalation and get a structured breakdown that separates the literal ask from the real job-to-be-done, reads sender power and stake, and points you toward a reply. Ships with a copy/paste template so you can run it by hand too
