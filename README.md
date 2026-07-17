@@ -272,6 +272,8 @@ Some skills note in their Provenance sections that they were adapted from [produ
 - ❌ **Don't sell them** — no repackaging the skills themselves into a paid product, course, or service without expressed written permission.
 - 🤔 **Not sure your use qualifies?** [Open an issue](https://github.com/deanpeters/Product-Manager-Skills/issues) and ask. If you're using these in the spirit they were built — to get better at the craft and help others do the same — the answer is almost certainly yes.
 
+The companion prompt library, [product-manager-prompts](https://github.com/deanpeters/product-manager-prompts), is licensed under the same terms as of its v2.3.0 — see its [LICENSING.md](https://github.com/deanpeters/product-manager-prompts/blob/main/LICENSING.md).
+
 ---
 
 ## Questions
